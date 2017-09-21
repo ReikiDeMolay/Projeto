@@ -10,9 +10,9 @@ read -s PASSW				#Leia sem imprimi e salve na var
 echo					#Pula linha
 if [ $LOGIN == 'vagrant' ]; then	#Se verdadeiro faça
 	if [ $PASSW == '123' ]; then	#Se verdadeiro faça
-		echo 'Seja bem-vindo!!!'#Imprime na tela
+		echo "Seja bem-vindo!!!"#Imprime na tela
 	else				#Caso contrário
-		echo 'Senha Inválida!!!'#Imprima na tela
+		echo "Senha Inválida!!!"#Imprima na tela
 	fi				#Sai do IF
 else					#Caso contrário
 	echo 'Usuário Inválido!!!'	#Imprime na tela 
